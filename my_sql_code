@@ -1,0 +1,11 @@
+i used a very simple SQL code for this project.
+this code helped me find the top ten country's in europe with the highest healthy life expectancy.
+
+SELECT
+  Country_name, 
+  Healthy_life_expectancy 
+FROM
+  `coursework-411813.europe.europe_life_expectancy`
+ORDER BY
+  Healthy_life_expectancy DESC;
+LIMIT 10
